@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Not ortalaması hesaplama</title>
+  <link rel="stylesheet" href="assets/css/not.css">
+  <script src="assets/js/not.js" defer></script>
+  
+</head>
+<body>
+  <div class="container">
+    <form class="studentForm">
+      <div class="formgroup">
+        <label for="name">Adınız :</label>
+        <input required type="text" id="name" name="name">
+      </div>
+      <div class="formgroup">
+        <label for="surname"> Soyadınız :</label>
+        <input required type="text" id="surname" name="surname">
+      </div>
+      <div class="formgroup">
+        <label for="bolum">Bölümünüz :</label>
+        <input required type="text" id="bolum" name="bolum">
+      </div>
+      <div class="formgroup">
+        <label for="vize">Vize 1 notunuzu giriniz :</label>
+        <input class="sinav" name="vize" type="number">
+      </div>
+      <div class="formgroup">
+        <label for="vize2">Vize 2 notunuzu giriniz :</label>
+        <input class="sinav2" name="vize2" type="number">
+      </div>
+      <div class="formgroup">
+        <label for="final">final notunuzu giriniz :</label>
+        <input class="final" name="final" type="number">
+      </div>
+      <button type="submit">Hesapla</button>
+    </form>
+    <button class="silme">silme</button>
+    <div class="students"></div>
+    <strong></strong>
+  
+</body>
+</html>

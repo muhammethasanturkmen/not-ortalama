@@ -1,0 +1,72 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffff;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formgroup {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"],
+.silme {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover,
+.silme:hover {
+  background-color: #218838;
+}
+
+strong {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.students {
+  margin-top: 20px;
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+}
